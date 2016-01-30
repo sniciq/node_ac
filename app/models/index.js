@@ -4,6 +4,7 @@ var settings = require('../../config/settings.js');
 var connection = null;
 function setup(db, cb) {
 	require('./project.js')(orm, db);
+
 	
 	return cb(null, db);
 }

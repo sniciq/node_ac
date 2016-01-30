@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
+//var models = require('../app/models/');
 
 module.exports = function(app) {
 	app.configure(function() {
